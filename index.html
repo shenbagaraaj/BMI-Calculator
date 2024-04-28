@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> BMI Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>BMI Calculator</h1>
+            <div class="calc">
+                <p>
+                    Weight in Kg : 
+                    <input type="text" id="weight" placeholder="Enter your weight">
+                </p>
+                <p>
+                    Height in cm :
+                    <input type="text"  id="height" placeholder="Enter your Height">
+                </p>
+                <br>
+                <button onclick="calculateBMI()" style="background-color: green;" class="submit button">Calculate</button> &ensp; <button onclick="reload()" style="background-color:red" class="clear button">Clear</button>
+                <br>
+                <p id="result"></p>
+            </div>
+    
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script charset="UTF-8" src="./script.js"></script>
+    </body>
+    <br>
+    <br>
+    <br>
+    <footer>
+        Made with ❤️ by Shenbagaraj
+    </footer>
+</html>

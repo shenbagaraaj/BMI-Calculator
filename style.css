@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:black;
+    color:white;
+    height:100vh;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family:cursive;
+    text-shadow: 3px 0 yellow;
+}
+p{
+    font-size: x-large;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+.calc{
+    margin: auto;
+    width:20%;
+    border:3px solid black;
+    padding: 50px;
+    border-radius: 20px;
+    background-color:yellowgreen;
+    color:blue;
+}
+.button{
+    border-radius: 10px;
+    padding:5px;
+    font-size: 1rem;
+}
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .calc{
+        width: 60%;
+    }
+    
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }

@@ -21,10 +21,10 @@ function  calculateBMI(){
         $("#result").text("You are Obesity");
     }
 
-    let showsuggestion_low = h2 * 18.4;
-    let showsuggestion_high = h2 * 25;
+    let showsuggestion_low = Math.round(h2 * 18.4);
+    let showsuggestion_high = Math.round(h2 * 25);
 
-    console.log("Your weight should be in the range of" + showsuggestion_low + "and" + showsuggestion_high);
+    console.log("Your weight should be in the range of " + showsuggestion_low + " and " + showsuggestion_high);
 }
 
 function reload(){

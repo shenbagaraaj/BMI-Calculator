@@ -20,6 +20,11 @@ function  calculateBMI(){
     }else{
         $("#result").text("You are Obesity");
     }
+
+    let showsuggestion_low = h2 * 18.4;
+    let showsuggestion_high = h2 * 25;
+
+    $("result").text("Your weight should be in the range of" + showsuggestion_low + "and" + showsuggestion_high);
 }
 
 function reload(){

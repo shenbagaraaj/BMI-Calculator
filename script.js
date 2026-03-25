@@ -24,7 +24,7 @@ function  calculateBMI(){
     let showsuggestion_low = h2 * 18.4;
     let showsuggestion_high = h2 * 25;
 
-    $("#suggested_weight").text("Your weight should be in the range of" + showsuggestion_low + "and" + showsuggestion_high);
+    console.log("Your weight should be in the range of" + showsuggestion_low + "and" + showsuggestion_high);
 }
 
 function reload(){
